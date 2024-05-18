@@ -1,0 +1,17 @@
+.slider-item {
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  background-size:cover;
+}
+
+.slider-item img {
+  /* width: 100%; */
+  background-size:cover;
+  height: auto;
+}
+
+.slider-item h3 {
+  display: none;
+}
