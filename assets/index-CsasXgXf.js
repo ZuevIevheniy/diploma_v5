@@ -277,7 +277,7 @@ attempted value: ${l}
   display: flex;
   flex-wrap: wrap;
   width: 660px;
-  min-height: 600px;
+  min-height: 500px;
   justify-content: center;
   border: 4px solid #767676;
   border-radius: 35px;
