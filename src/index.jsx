@@ -8,12 +8,10 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/diploma_v5">
+    <BrowserRouter basename="diploma_v5">
     <ThemeProvider theme={theme}>
       <App />
       </ThemeProvider>
     </BrowserRouter>
-
-
   </React.StrictMode>
 )
