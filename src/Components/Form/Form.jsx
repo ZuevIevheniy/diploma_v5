@@ -9,6 +9,7 @@ import ClientPhoneNumber from './Filters/ClientPhoneNumber';
 import ClientEmailAddress from './Filters/ClientEmailAddress';
 import ClientVinNumber from './Filters/ClientVinNumber';
 import FilterService from './Filters/FilterService';
+import { useNavigate } from 'react-router-dom';
 import {
   BtnDelInvoice,
   ItemInvoice,
@@ -30,6 +31,8 @@ export const Form= () => {
     filteredService: [],
   });
 
+  const navigate = useNavigate();
+
   const handleSubmitForm = async event => {
     event.preventDefault();
     // console.log('Form submitted:', filters);
@@ -40,7 +43,6 @@ export const Form= () => {
       await fetchAddOrderCar(filters);
       console.log(filters);
       console.log('Я внес в базу filters');
-      window.location.reload();
       clearForm();
     } catch (error) {
       // toast.error('Quiz failed to load');
@@ -52,7 +54,8 @@ export const Form= () => {
   };
 
   function clearForm() {
-    window.location.reload();
+    // window.location.reload();
+    navigate('/create');
   }
 
   function handlDelServiceClick(index) {
