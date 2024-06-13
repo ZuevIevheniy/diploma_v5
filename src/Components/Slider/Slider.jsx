@@ -24,19 +24,19 @@ export default function SimpleSlider() {
   return (
     <Slider {...settings}>
       <SliderItem1 className="slider-item">
-        <Text>Наши специалисты</Text>
+        <Text>Drive Fix: ваш надійний автосервіс, де якість і турбота зустрічаються. Швидко, професійно та з любов'ю до вашого автомобіля!</Text>
       </SliderItem1>
       <SliderItem2 className="slider-item">
-        <Text>Наши лучшие инженеры</Text>
+      
       </SliderItem2>
       <SliderItem3 className="slider-item">
-        <Text>Наша аналоговнетная мастерская</Text>
+       
       </SliderItem3>
       <SliderItem4 className="slider-item">
-        <Text>Наши работы - эксклюзивный тюнинг спорткаров</Text>
+        
       </SliderItem4>
       <SliderItem5 className="slider-item">
-        <Text>Наш последний шедевр - "полу рак полу" </Text>
+      
       </SliderItem5>
     </Slider>
   );

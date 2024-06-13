@@ -42,7 +42,6 @@ export default function FilterService({ filters, setFilters }) {
   useEffect(() => {
     setToMainStateServiceArr();
   }, [selectedService]);
-
   const autocompleteService = allService.filter(service => {
     return service.service.toUpperCase().includes(filterValue.toUpperCase());
   });

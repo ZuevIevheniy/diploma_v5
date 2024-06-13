@@ -1,25 +1,21 @@
 import styled from 'styled-components';
-import slide1 from '../AssetsImg/image1.png';
-import slide2 from '../AssetsImg/image2.jpg';
-import slide3 from '../AssetsImg/image3.jpg';
-import slide4 from '../AssetsImg/image4.jpg';
-import slide5 from '../AssetsImg/image5.jpg';
+import slide1 from '../AssetsImg/img1.png';
+import slide2 from '../AssetsImg/img2.png';
+import slide3 from '../AssetsImg/img3.png';
+import slide4 from '../AssetsImg/img4.png';
+import slide5 from '../AssetsImg/img5.png';
 
 
 export const Text = styled.p`
   position: absolute;
-  white-space: nowrap;
-  padding: 6px;
-  border-radius: 10px;
-  border: 3px #1c7ed6 solid;
-  bottom: 20px; /* расстояние от нижнего края */
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  color: #1b1116; /* например, если вам нужен белый текст */
-  background-color: white;
-  font-size: 30px; /* размер шрифта можно изменить по необходимости */
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  max-width: 400px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 20px;
+  border: 2px solid lightblue;
 `;
 
 export const SliderItem1 = styled.div`
